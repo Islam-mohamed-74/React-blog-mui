@@ -59,9 +59,8 @@ function App() {
   // json-server --watch db.json
   const API_URL =
     import.meta.env.MODE === "production"
-      ? "https://my-json-server.typicode.com/Islam-mohamed-74/React-blog-mui"
+      ? "https://my-json-server.typicode.com/Islam-mohamed-74/React-blog" // الريبو الأول
       : "http://localhost:3000";
-
   return (
     <>
       <ToastContainer />
